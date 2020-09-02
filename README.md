@@ -2,6 +2,8 @@
 
 Notes taken from the [Stanford machine learning course](https://www.coursera.org/learn/machine-learning).
 
+It is written in Jupyter notebook, and it uses Python for computing rather than Octave.
+
 ## Modules
 
 <!-- modules:start -->
