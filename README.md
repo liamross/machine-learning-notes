@@ -1,8 +1,10 @@
 # Machine learning notes
 
+> This is a work in progress
+
 Notes taken from the [Stanford machine learning course](https://www.coursera.org/learn/machine-learning).
 
-It is written in Jupyter notebook, and it uses Python for computing rather than Octave.
+I decided to use Jupyter notebook and do all computation in Python rather than Octave.
 
 ## Modules
 
