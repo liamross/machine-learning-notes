@@ -2,9 +2,11 @@
 
 > This is a work in progress
 
-Notes taken from the [Stanford machine learning course](https://www.coursera.org/learn/machine-learning).
+Notes written while taking the [Stanford machine learning course](https://www.coursera.org/learn/machine-learning).
 
 I decided to use Jupyter notebook and do all computation in Python rather than Octave.
+
+Links are broken in GitHub so it's better to view in [Jupyter Notebook Viewer](https://nbviewer.jupyter.org/github/liamross/machine-learning-notes/tree/master/).
 
 ## Modules
 
