@@ -10,9 +10,9 @@ All illustrations done using [Excalidraw](https://excalidraw.com/).
 
 ## Modules
 
-1. [Introduction](1_introduction.ipynb)
-1. [Linear regression with one variable](2_linear_regression_with_one_variable.ipynb)
-1. [Linear algebra review](3_linear_algebra_review.ipynb)
-1. [Linear regression with multiple variables](4_linear_regression_with_multiple_variables.ipynb)
+1. [Introduction](1_introduction.ipynb) - basic terminology for machine learning
+1. [Linear regression with one variable](2_linear_regression_with_one_variable.ipynb) - most of these are build on more completely in 4
+1. [Linear algebra review](3_linear_algebra_review.ipynb) - an optional refresher on matrices and vectors
+1. [Linear regression with multiple variables](4_linear_regression_with_multiple_variables.ipynb) - builds on 2 with multi variable algorithms
 
 > See [notation](notation.ipynb) as a reference for notation used throughout these notes.
