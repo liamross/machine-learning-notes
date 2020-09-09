@@ -14,5 +14,14 @@ All illustrations done using [Excalidraw](https://excalidraw.com/).
 1. [Linear regression with one variable](2_linear_regression_with_one_variable.ipynb) - most of these are build on more completely in 4
 1. [Linear algebra review](3_linear_algebra_review.ipynb) - an optional refresher on matrices and vectors
 1. [Linear regression with multiple variables](4_linear_regression_with_multiple_variables.ipynb) - builds on 2 with multi variable algorithms
+1. [Octave tutorial](5_octave_tutorial.ipynb) - commands and tips for vectorizing in Octave
 
 > See [notation](notation.ipynb) as a reference for notation used throughout these notes.
+
+## Octave examples
+
+The folder `octave_examples` will contain some example Octave code. This is basically just a sandbox to test some functions and copy down examples given in the course in case they are useful later.
+
+## Assignments
+
+I have git ignored the `assignments` folder since it contains answers to the programming assignments! I highly encourage doing the course yourself. It's free!
