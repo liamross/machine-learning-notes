@@ -17,7 +17,7 @@ function [theta, J_history] = gradientDescent (X, y, theta, alpha, num_iters)
     J_history = zeros(num_iters, 1); % initialize J_history
 
     % For each iteration, set theta using vectorized gradient descent algorithm,
-    % and store the resulting cost in the J history.
+    % and store the resulting cost of theta in the J history.
     for iter = 1:num_iters
 
         theta = theta - alpha * (1 / m) * ((X * theta - y)' * X)';
