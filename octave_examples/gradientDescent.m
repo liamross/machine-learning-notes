@@ -17,12 +17,25 @@ function [theta, J_history] = gradientDescent (X, y, theta, alpha, num_iters)
     J_history = zeros(num_iters, 1); % initialize J_history
 
     % For each iteration, set theta using vectorized gradient descent algorithm,
-    % and store the resulting cost of theta in the J history.
+    % and store the resulting cost of the new theta in the J history.
     for iter = 1:num_iters
 
-        theta = theta - alpha * (1 / m) * ((X * theta - y)' * X)';
+        % First, calculate the result of the linear hypothesis for each item in
+        % the training set. This will create a vector with the output value for
+        % each item.
+        hypotheses = X * theta;
+
+        % Next, calculate alpha times the partial derivative of the cost
+        % function, which will generate a vector of values the same length as
+        % theta. Finally, subtract these from the previous theta vector to get
+        % the new values of theta.
+        theta = theta - alpha * (1 / m) * ((hypotheses - y)' * X)';
+
+        % Finally, calculate the actual cost from the cost function in order to
+        % store the values and determine whether the cost is decreasing with
+        % each run.
         J_history(iter) = costFunction(X, y, theta);
 
-    endfor
+    end
 
-endfunction
+end

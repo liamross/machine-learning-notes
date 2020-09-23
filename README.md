@@ -24,12 +24,15 @@ These follow the progression of the course and include notes taken while watchin
 These are more structured notes that combine information under topics, potentially spanning multiple modules (links will open into Jupyter Notebook Viewer).
 
 <!-- notes:start -->
+- [Cost function](https://nbviewer.jupyter.org/github/liamross/machine-learning-notes/blob/master/notes/cost_function.ipynb) - function for calculating average error from
+- [Gradient descent](https://nbviewer.jupyter.org/github/liamross/machine-learning-notes/blob/master/notes/gradient_descent.ipynb) - algorithm for reducing hypothesis error
+- [Linear hypothesis](https://nbviewer.jupyter.org/github/liamross/machine-learning-notes/blob/master/notes/linear_hypothesis.ipynb) - hypothesis for linear data
 - [Notation](https://nbviewer.jupyter.org/github/liamross/machine-learning-notes/blob/master/notes/notation.ipynb) - a reference for notation used throughout these notes
 <!-- notes:end -->
 
 ## Octave examples
 
-The folder `octave_examples` will contain some example Octave functions for certain algorithms covered in the course.
+The folder `octave_examples` will contain some example Octave functions for certain algorithms covered in the course. These should also run in Matlab, as the two are generally compatible.
 
 <!-- octave_examples:start -->
 - [costFunction](https://github.com/liamross/machine-learning-notes/blob/master/octave_examples/costFunction.m) - cost function implementation for any number of variables

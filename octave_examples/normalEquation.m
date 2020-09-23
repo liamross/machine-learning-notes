@@ -8,7 +8,6 @@
 
 function theta = normalEquation (X, y)
 
-    X_tran = X';
-    theta = pinv(X_tran * X) * X_tran * y;
+    theta = pinv(X' * X) * X' * y;
 
-endfunction
+end
