@@ -23,13 +23,13 @@ function [theta, J_history] = gradientDescent (X, y, theta, alpha, num_iters)
         % First, calculate the result of the linear hypothesis for each item in
         % the training set. This will create a vector with the output value for
         % each item.
-        hypotheses = X * theta;
+        hypothesis = X * theta;
 
         % Next, calculate alpha times the partial derivative of the cost
         % function, which will generate a vector of values the same length as
         % theta. Finally, subtract these from the previous theta vector to get
         % the new values of theta.
-        theta = theta - alpha * (1 / m) * ((hypotheses - y)' * X)';
+        theta = theta - (alpha / m) * X' * (hypothesis - y)
 
         % Finally, calculate the actual cost from the cost function in order to
         % store the values and determine whether the cost is decreasing with
