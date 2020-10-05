@@ -34,7 +34,7 @@ function [theta, J_history] = gradientDescent (X, y, theta, alpha, num_iters)
         % Finally, calculate the actual cost from the cost function in order to
         % store the values and determine whether the cost is decreasing with
         % each run.
-        J_history(iter) = costFunction(X, y, theta);
+        J_history(iter) = linearCostFunction(X, y, theta);
 
     end
 

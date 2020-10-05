@@ -1,13 +1,13 @@
 % Compute the cost for linear hypothesis.
 %
-% usage: costFunction (X, y, theta)
+% usage: linearCostFunction (X, y, theta)
 %   X = matrix of features
 %   y = matrix of target variables
 %   theta = chosen theta values
 %
 % returns: the cost J for linear regression
 
-function J = costFunction (X, y, theta)
+function J = linearCostFunction (X, y, theta)
 
     m = length(y);
 
