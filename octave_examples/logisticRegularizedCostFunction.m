@@ -15,7 +15,7 @@ function [J, grad] = logisticRegularizedCostFunction (X, y, theta, lambda)
     m = length(y);
 
     % First, get the base values of the normal logistic cost function.
-    [JBase, gradBase] = costFunction(theta, X, y);
+    [JBase, gradBase] = logisticCostFunction(theta, X, y);
 
     % Next, add the result of theta(2:end) (we don't calculate for theta_1) to
     % the base J value to calculate the cost.
@@ -27,6 +27,6 @@ function [J, grad] = logisticRegularizedCostFunction (X, y, theta, lambda)
     grad(1) = gradBase(1);
 
     % Finally, add the vector of regularized values to the rest of grad.
-    grad(2:end) = gradBase(2:end) + ((lambda * theta_2_end) / m);
+    grad(2:end) = gradBase(2:end) + ((lambda / m) * theta_2_end);
 
 end
